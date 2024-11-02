@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4f4f4;
+  font-family: system-ui;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  list-style-type: none;
+}
+b,
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Aside */
+.sidebar {
+  padding: 20px;
+  background-color: #0e9464;
+  color: #f4f4f4;
+  width: 350px;
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.avatar img {
+  width: 200px;
+  border-radius: 50%;
+}
+.name {
+  font-size: 26px;
+  font-family: Arial;
+  text-align: center;
+  cursor: pointer;
+}
+.title {
+  font-size: 20px;
+  text-align: center;
+}
+#contact {
+  margin: 1.2rem 0;
+}
+#contact .contact-info {
+  display: flex;
+  vertical-align: middle;
+  line-height: 30px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+#contact .contact-info a {
+  color: #f4f4f4;
+}
+.contact-info svg {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  fill: white;
+  margin-right: 20px;
+}
+.skill-icon {
+  margin: 1rem auto;
+  width: 275px;
+}
+.skill-icon svg {
+  width: 50px;
+  height: 50px;
+  background: #faf9f6;
+}
+
+/* Main */
+.main-content {
+  padding: 20px;
+}
+section:not(:last-child) {
+  margin-bottom: 2rem;
+  font-size: 18px;
+}
+.content-title {
+  border-bottom: 3px solid #4caf50;
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.content-title svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+}
+.skills li {
+  margin-bottom: 0.8rem;
+}
+.projects b,
+.skills b {
+  margin-right: 0.8rem;
+  font-size: 20px;
+}
+.projects a {
+  display: block;
+}
+.projects .single-project a {
+  margin-top: 10px;
+}
+
+.projects div:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+.projects .multi-links {
+  margin-top: 10px;
+}
+.projects .sub-project {
+  font-weight: 600;
+  font-size: 19px;
+}
+.projects b {
+  display: block;
+}
+.work-experience b span {
+  margin-left: 50px;
+}
+
+/* Toast */
+.toast {
+  visibility: hidden;
+  min-width: 200px;
+  margin-left: -125px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 16px;
+  position: fixed;
+  z-index: 100;
+  left: 50%;
+  bottom: 30px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.toast.show {
+  visibility: visible;
+  opacity: 1;
+}

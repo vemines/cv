@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="avatar"><img src="avatar.jpg" alt="Avatar" /></div>
+        <h1 class="name">HUỲNH HƯNG PHÁT</h1>
+        <h2 class="title">Front-end Developer</h2>
+        <ul id="contact">
+          <li class="contact-info" onclick="copyToClipboard('vemines@outlook.com')">
+            <svg><use href="./sprite.svg#envelope" /></svg>
+            <b>vemines@outlook.com</b>
+          </li>
+          <li class="contact-info" onclick="copyToClipboard('0946360458')">
+            <svg><use href="./sprite.svg#phone" /></svg>
+            <b>+84 946360458</b>
+          </li>
+          <li class="contact-info" onclick="copyToClipboard('Thu Duc, TPHCM')">
+            <svg><use href="./sprite.svg#location-dot" /></svg>
+            <b>Thu Duc, TPHCM</b>
+          </li>
+          <li class="contact-info" onclick="copyToClipboard('https:\/\/github.com\/vemines')">
+            <svg><use href="./sprite.svg#github" /></svg>
+            <a href="https://github.com/vemines"><b>https://github.com/vemines</b></a>
+          </li>
+        </ul>
+
+        <div class="skill-icon">
+          <svg><use href="./sprite.svg#dart" /></svg>
+          <svg><use href="./sprite.svg#flutter" /></svg>
+          <svg><use href="./sprite.svg#firebase" /></svg>
+          <svg><use href="./sprite.svg#html5" /></svg>
+          <svg><use href="./sprite.svg#css3" /></svg>
+          <svg><use href="./sprite.svg#javascript" /></svg>
+          <svg><use href="./sprite.svg#react" /></svg>
+          <svg><use href="./sprite.svg#nodejs" /></svg>
+          <svg><use href="./sprite.svg#go" /></svg>
+          <svg><use href="./sprite.svg#mongodb" /></svg>
+          <svg><use href="./sprite.svg#mysql" /></svg>
+          <svg><use href="./sprite.svg#redis" /></svg>
+          <svg><use href="./sprite.svg#git" /></svg>
+          <svg><use href="./sprite.svg#python" /></svg>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <section class="overview">
+          <div class="content-title">
+            <svg><use href="./sprite.svg#circle-user" /></svg>
+            <h2>Overview</h2>
+          </div>
+          <p>Build responsive design website and application.</p>
+          <p>Skilled Flutter developer building cross-platform mobile.</p>
+          <p>Build high performance RESTful APIs with NodeJS.</p>
+        </section>
+
+        <section class="skills">
+          <div class="content-title">
+            <svg><use href="./sprite.svg#screwdriver-wrench" /></svg>
+            <h2>Skills</h2>
+          </div>
+          <ul>
+            <li><b>Front-end:</b>Flutter, Web(HTML CSS JS), React.</li>
+            <li><b>Back-end:</b>NodeJS, Firebase, Golang.</li>
+            <li><b>Databases:</b>MySQL, MongoDB, Firebase.</li>
+            <li><b>Code manager:</b>Git.</li>
+            <li><b>Other:</b>Redis, Python, Cloudinary, EC2, S3 + CloudFront, Indesign.</li>
+          </ul>
+        </section>
+
+        <section class="projects">
+          <div class="content-title">
+            <svg><use href="./sprite.svg#chart-line" /></svg>
+            <h2>Projects</h2>
+          </div>
+          <div class="single-project">
+            <b>Compensation Management</b>
+            <p>
+              Flutter web application was follow Figma design. Collaborate with the backend team to
+              implement APIs. I worked closely with testers to identify and resolve any issues. GetX
+              was utilized as the state management solution.
+            </p>
+          </div>
+          <div class="single-project">
+            <b>CLONE GOOGLE KEEP</b>
+            <p>
+              Clone the Google Keep UI and implemented its features. I’m working on additional
+              functionalities. Using Bloc, Hook, and Provider for state management, Firebase and
+              Firebase Storage for backend. I experimented with Hive_generator, Flutter_gen, and
+              Intl_utils for code generation.
+            </p>
+            <a href="https://github.com/vemines/clone-google-keep-flutter">
+              Link project: https://github.com/vemines/clone-google-keep-flutter
+            </a>
+          </div>
+          <div class="single-project">
+            <b>NODEJS BACKEND</b>
+            <p>
+              A compilation of my Node.js knowledge, with a focus on building REST APIs for
+              e-commerce applications. It includes practical examples of using AWS services like S3
+              and Cloudfront, along with Cloudinary, and real-world scenarios.
+            </p>
+            <a href="https://github.com/vemines/NodeJs/tree/main/RestApi">
+              Link project: https://github.com/vemines/NodeJs/tree/main/RestApi
+            </a>
+          </div>
+          <div>
+            <b>Python Projects</b>
+            <span class="sub-project">Svg-sprites-gen: </span>Svg sprite generator + merge svg to
+            sprites
+            <br />
+            <span class="sub-project">Svg-html-preview:</span> Generate html for view, search (by
+            name), download svg files
+            <div class="multi-links">
+              <a href="https://github.com/vemines/svg-sprites-gen">
+                Svg sprites generte link: https://github.com/vemines/svg-sprites-gen
+              </a>
+              <a href="https://github.com/vemines/svg-html-preview">
+                Svg html preview link: https://github.com/vemines/svg-html-preview
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="work-experience">
+          <div class="content-title">
+            <svg><use href="./sprite.svg#briefcase" /></svg>
+            <h2>Work Experience</h2>
+          </div>
+          <div>
+            <b>REMOTE FLUTTER INTERN <span>06/2022 → 04/2023</span></b>
+            <p>
+              Acquired proficiency in Flutter for building web and Android applications. Enhanced my
+              UI design skills by participating in design revisions. Developed a property insurance
+              claims management web application using Flutter and GetX.
+            </p>
+          </div>
+        </section>
+
+        <section class="education">
+          <div class="content-title">
+            <svg><use href="./sprite.svg#graduation-cap" /></svg>
+            <h2>Education</h2>
+          </div>
+          <b>Bachelor of Infomation Technology, Nong Lam University</b>
+          <p>Graduation: 06/2023</p>
+        </section>
+      </main>
+    </div>
+    <script>
+      function copyToClipboard(s) {
+        navigator.clipboard.writeText(`${s}`);
+        showToast(`Copy ${s} to clipboard`);
+      }
+      function showToast(message) {
+        const existingToast = document.querySelector('.toast');
+        if (existingToast) existingToast.remove();
+
+        const toast = document.createElement('div');
+        toast.classList.add('toast', 'show');
+        toast.textContent = message;
+        document.body.appendChild(toast);
+        setTimeout(() => {
+          toast.remove();
+        }, 3000);
+      }
+    </script>
+  </body>
+</html>
