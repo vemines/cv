@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Nhà Phát Triển Fullstack</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <section id="info">
+      <div class="left">
+        <img src="avatar.jpg" alt="avatar" />
+      </div>
+
+      <div class="center">
+        <h1 onclick="opyToClipboard('Huỳnh Hưng Phát')">HUỲNH HƯNG PHÁT</h1>
+        <h2>FullStack Developer</h2>
+      </div>
+
+      <div class="right">
+        <ul>
+          <li class="contact-info" onclick="copyToClipboard('vemines@outlook.com')">
+            <svg><use href="./sprite.svg#envelope" /></svg>
+            <p class="contact-text">vemines@outlook.com</p>
+          </li>
+          <li class="contact-info" onclick="copyToClipboard('0946360458')">
+            <svg><use href="./sprite.svg#phone" /></svg>
+            <p class="contact-text">0946360458</p>
+          </li>
+          <li class="contact-info" onclick="copyToClipboard('Thu Duc, TPHCM')">
+            <svg><use href="./sprite.svg#location-dot" /></svg>
+            <p class="contact-text">Thủ Đức, TP.HCM</p>
+          </li>
+          <li
+            class="contact-info"
+            onclick="copyToClipboard('https:\/\/github.com\/vemines?tab=repositories')"
+          >
+            <svg><use href="./sprite.svg#github" /></svg>
+            <a href="https://github.com/vemines?tab=repositories">
+              <p class="contact-text">https://github.com/vemines</p>
+            </a>
+          </li>
+          <li class="contact-info" onclick="copyToClipboard('20\/05\/1999')">
+            <svg><use href="./sprite.svg#calendar" /></svg>
+            <p class="contact-text">20/05/1999</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="content">
+      <h3 class="title">Tổng Quan</h3>
+      <div id="overview">
+        <p>
+          Một lập trình viên full-stack đam mê xây dựng ứng dụng đa nền tảng. Thành thạo Flutter
+          trong việc phát triển giao diện di động đáp ứng (responsive) kết hợp với backend Firebase.
+          Có kinh nghiệm phát triển RESTful APIs cho backend sử dụng Node.js và các cơ sở dữ liệu
+          phổ biến như MongoDB, MySQL. Ngoài ra, tôi cũng phát triển ứng dụng web với ReactJS.
+        </p>
+      </div>
+
+      <h3 class="title">Kỹ Năng</h3>
+      <div id="skills">
+        <p>
+          <strong>Flutter (Fresher):</strong> Có kinh nghiệm trong việc xây dựng ứng dụng di động
+          với backend Firebase. Thành thạo sử dụng các công cụ quản lý trạng thái (Bloc, GetX,
+          Provider), thiết kế giao diện responsive (mobile, tablet) với Material Design. Có khả năng
+          áp dụng và tùy chỉnh các thư viện của bên thứ ba.
+        </p>
+
+        <p>
+          <strong>Node.js (Thực tập sinh):</strong> Có kinh nghiệm xây dựng API RESTful với
+          Express.js, routing, middleware và HTTP method. Cơ sở dữ liệu MongoDB, MySQL, Redis
+          caching và các dịch vụ ebn6 thứ ba như AWS (EC2, S3, Cloudfront) và Cloudinary. Có kiến
+          thức cơ bản về microservices.
+        </p>
+
+        <p>
+          <strong>React (Thực tập sinh):</strong> Có kinh nghiệm xây dựng API RESTful với
+          Express.js, bao gồm routing, middleware và các phương thức HTTP. Sử dụng cơ sở dữ liệu
+          MongoDB, MySQL, Redis caching và các dịch vụ bên thứ ba như AWS (EC2, S3, CloudFront) và
+          Cloudinary. Có kiến thức cơ bản về microservices.
+        </p>
+
+        <p>
+          <strong>Golang (Thực tập sinh):</strong> Đã hoàn thành Go Tour. Có kinh nghiệm xây dựng
+          API RESTful với Gin và Gorm, bao gồm routing, middleware và các phương thức HTTP.
+        </p>
+
+        <p><strong>Ngôn ngữ khác:</strong> Git (quản lý mã nguồn), Python</p>
+      </div>
+
+      <h3 class="title">Dự Án</h3>
+      <div id="projects">
+        <div class="project">
+          <h4 class="project-title">Quản Lý Bồi thường</h4>
+          <p class="project-desc">
+            Phát triển một ứng dụng web Flutter từ đầu theo thiết kế Figma. Hợp tác với nhóm backend
+            để triển khai các API. Làm việc với tester để xác định và giải quyết các vấn đề.
+          </p>
+          <div class="project-techs">
+            <p>Ngôn ngữ: Flutter</p>
+            <p>State manager: GetX</p>
+            <p>Vai trò: Frontend</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <h4 class="project-title">Clone Google Keep</h4>
+          <p class="project-desc">
+            Clone giao diện người dùng và các tính năng của Google Keep bằng Flutter. Sử dụng Bloc
+            và Provider làm state manager. Tích hợp backend với Firebase. Áp dụng các thư viện
+            generate code.
+          </p>
+          <div class="project-techs">
+            <p>Ngôn ngữ: Flutter</p>
+            <p>Tính năng: Auth, CRUD Note (với Camera, Tải ảnh lên, Bảng vẽ tay, Ghi âm)</p>
+            <p>
+              Generator: intl_utils (ứng dụng đa ngôn ngữ), hive_generator (hỗ trợ lưu đối tượng cho
+              bộ nhớ đệm), flutter_intl (quản lý assets), flutter_gen (tạo màu từ xml)
+            </p>
+            <p>State manager: Bloc, Provider</p>
+            <p>Backend: Firebase, Hive</p>
+            <p>Vai trò: FullStack</p>
+          </div>
+          <p class="project-url">
+            Repo URL:
+            <a href="https://github.com/vemines/clone-keep-flutter"
+              >https://github.com/vemines/clone-keep-flutter</a
+            >
+          </p>
+        </div>
+
+        <div class="project">
+          <h4 class="project-title">NodeJS Backend</h4>
+          <p class="project-desc">
+            Tổng hợp kiến thức về Node.js, tập trung vào việc xây dựng API REST cho các ứng dụng
+            thương mại điện tử. Áp dụng các dịch vụ AWS như S3 và CloudFront, cùng với Cloudinary để
+            xử lý các kịch bản và tình huống thực tế.
+          </p>
+          <div class="project-techs">
+            <p>Ngôn ngữ: JavaScript</p>
+            <p>Database: MongoDB</p>
+            <p>Vai trò: Backend</p>
+          </div>
+          <p class="project-url">
+            Repo URL:
+            <a href="https://github.com/vemines/NodeJs/tree/main/RestApi"
+              >https://github.com/vemines/NodeJs/tree/main/RestApi</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <h3 class="title">Kinh Nghiệm Làm Việc</h3>
+      <div id="work-exp">
+        <div class="job-title">
+          <p>THỰC TẬP SINH FLUTTER TỪ XA</p>
+          <p>06/2022 → 04/2023</p>
+        </div>
+        <div class="job-desc">
+          <p>
+            Học Dart và Flutter để phát triển ứng dụng, tập trung vào các nguyên lý Material Design.
+            Triển khai sử dụng state manager như GetX, BLoC và Provider để tối ưu hóa ứng dụng.
+          </p>
+          <p>Viết mã sạch, dễ bảo trì để đảm bảo tính mở rộng và hiệu suất tốt hơn.</p>
+          <p>
+            Cải thiện kỹ năng UI/UX bằng cách xây dựng các ứng dụng reponsive, tích hợp theme, hỗ
+            trợ đa ngôn ngữ, animations, xử lý media và caching.
+          </p>
+          <p>
+            Khám phá các dịch vụ của Firebase như Authentication, Firestore, Database, CAPTCHA và
+            Maps để phát triển các tính năng cho ứng dụng.
+          </p>
+          <p>
+            Hợp tác với nhóm backend để tích hợp API REST và tùy chỉnh các gói thư viện bên thứ ba
+            theo yêu cầu dự án.
+          </p>
+        </div>
+      </div>
+
+      <h3 class="title">Học Vấn</h3>
+      <div id="educations">
+        <h4 class="education-title">Cử Nhân Công Nghệ Thông Tin, Đại Học Nông Lâm</h4>
+        <p class="education-desc">Tốt nghiệp: 06/2023</p>
+      </div>
+
+      <h3 class="title">Công cụ</h3>
+      <div class="knowledge-list">
+        <div class="knowledge-item">
+          <span>
+            <svg><use href="./sprite.svg#dart" /></svg>
+          </span>
+          <p>Dart</p>
+        </div>
+        <div class="knowledge-item">
+          <span>
+            <svg><use href="./sprite.svg#flutter" /></svg>
+          </span>
+          <p>Flutter</p>
+        </div>
+        <div class="knowledge-item">
+          <span>
+            <svg><use href="./sprite.svg#firebase" /></svg>
+          </span>
+          <p>Firebase</p>
+        </div>
+        <div class="knowledge-item">
+          <span>
+            <svg><use href="./sprite.svg#html5" /></svg>
+          </span>
+          <p>HTML5</p>
+        </div>
+        <div class="knowledge-item">
+          <span>
+            <svg><use href="./sprite.svg#css3" /></svg>
+          </span>
+          <p>CSS3</p>
+        </div>
+        <div class="knowledge-item">
+          <img src="bootstrap.svg" alt="bs" width="42px" height="40px" />
+          <p>Bootstrap 5</p>
+        </div>
+        <div class="knowledge-item">
+          <span>
+            <svg><use href="./sprite.svg#sass" /></svg>
+          </span>
+          <p>Sass</p>
+        </div>
+        <div class="knowledge-item">
+          <span>
+            <svg><use href="./sprite.svg#javascript" /></svg>
+          </span>
+          <p>Javascript ES6+</p>
+        </div>
+        <div class="knowledge-item">
+          <span>
+            <svg><use href="./sprite.svg#react" /></svg>
+          </span>
+          <p>ReactJS</p>
+        </div>
+        <div class="knowledge-item">
+          <span>
+            <svg><use href="./sprite.svg#nodejs" /></svg>
+          </span>
+          <p>NodeJS</p>
+        </div>
+        <div class="knowledge-item">
+          <span>
+            <svg><use href="./sprite.svg#go" /></svg>
+          </span>
+          <p>Golang</p>
+        </div>
+        <div class="knowledge-item">
+          <span>
+            <svg><use href="./sprite.svg#mongodb" /></svg>
+          </span>
+          <p>MongoDB</p>
+        </div>
+        <div class="knowledge-item">
+          <span>
+            <svg><use href="./sprite.svg#mysql" /></svg>
+          </span>
+          <p>MySQL</p>
+        </div>
+        <div class="knowledge-item">
+          <span>
+            <svg><use href="./sprite.svg#redis" /></svg>
+          </span>
+          <p>Redis</p>
+        </div>
+        <div class="knowledge-item">
+          <span>
+            <svg><use href="./sprite.svg#git" /></svg>
+          </span>
+          <p>Git</p>
+        </div>
+        <div class="knowledge-item">
+          <span>
+            <svg><use href="./sprite.svg#python" /></svg>
+          </span>
+          <p>Python</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
