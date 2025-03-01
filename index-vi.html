@@ -63,28 +63,27 @@
       <h3 class="title">Kỹ Năng</h3>
       <div id="skills">
         <p>
-          <strong>Flutter (Fresher):</strong> Có kinh nghiệm trong việc xây dựng ứng dụng di động
-          với backend Firebase. Thành thạo sử dụng các công cụ quản lý trạng thái (Bloc, GetX,
-          Provider), thiết kế giao diện responsive (mobile, tablet) với Material Design. Có khả năng
-          áp dụng và tùy chỉnh các thư viện của bên thứ ba.
+          <strong>Flutter:</strong> Có kinh nghiệm trong việc xây dựng ứng dụng di động với backend
+          Firebase. Thành thạo sử dụng các công cụ quản lý trạng thái (Bloc, GetX, Provider), thiết
+          kế giao diện responsive (mobile, tablet) với Material Design. Có khả năng áp dụng và tùy
+          chỉnh các thư viện của bên thứ ba.
         </p>
 
         <p>
-          <strong>Node.js (Thực tập sinh):</strong> Có kinh nghiệm xây dựng RESTful API với
-          Express.js, routing, middleware và HTTP method. Cơ sở dữ liệu MongoDB, MySQL, Redis
-          caching và các dịch vụ bên thứ ba như AWS (EC2, S3, Cloudfront) và Cloudinary. Có kiến
-          thức cơ bản về microservices.
+          <strong>Node.js:</strong> Có kinh nghiệm xây dựng RESTful API với Express.js, routing,
+          middleware và HTTP method. Cơ sở dữ liệu MongoDB, MySQL, Redis caching và các dịch vụ bên
+          thứ ba như AWS (EC2, S3, Cloudfront) và Cloudinary. Có kiến thức cơ bản về microservices.
         </p>
 
         <p>
-          <strong>React (Thực tập sinh):</strong> Thành thạo trong việc tạo giao diện web responsive
-          với JavaScript hiện đại (ES6+). Có kinh nghiệm với functional components (useState,
-          useEffect), routing, validate form và trang trí cho các components.
+          <strong>React:</strong> Thành thạo trong việc tạo giao diện web responsive với JavaScript
+          hiện đại (ES6+). Có kinh nghiệm với functional components (useState, useEffect), routing,
+          validate form và trang trí cho các components.
         </p>
 
         <p>
-          <strong>Golang (Thực tập sinh):</strong> Đã hoàn thành Go Tour. Có kinh nghiệm xây dựng
-          API RESTful với Gin và Gorm, bao gồm routing, middleware và các phương thức HTTP.
+          <strong>Golang:</strong> Đã hoàn thành Go Tour. Có kinh nghiệm xây dựng API RESTful với
+          Gin và Gorm, bao gồm routing, middleware và các phương thức HTTP.
         </p>
 
         <p><strong>Ngôn ngữ khác:</strong> Git (quản lý mã nguồn), Python</p>
@@ -93,15 +92,45 @@
       <h3 class="title">Dự Án</h3>
       <div id="projects">
         <div class="project">
+          <h4 class="project-title">Flutter Bloc Clean Architecture Starter</h4>
+          <p class="project-desc">
+            Dự án này là một Starter Flutter Projects, triển khai Clean Architecture cùng với BLoC
+            để quản lý trạng thái. Nó cung cấp một cấu trúc có khả năng mở rộng để xây dựng các ứng
+            dụng lớn trong Flutter. Sử dụng các gói thư viện bên thứ ba (3rd party) mới nhất. API
+            được tích hợp với một mock backend chạy bằng json_server.
+          </p>
+          <div class="project-techs">
+            <p>Language: <b>Flutter</b></p>
+            <p>State manager: <b>Bloc</b></p>
+            <p>Backend: <b>json-server</b></p>
+            <p>Features: <b>Auth, Post, User, Comments</b></p>
+            <p>Test (200 testcases): <b>mocktail, flutter_test, bloc_test</b></p>
+            <p>
+              Other:
+              <b>
+                3 Flavors, Themes, Logger, I18n, Extensions, Error Handle (dartz), Service Locator
+                (get_it).
+              </b>
+            </p>
+          </div>
+          <div class="project-url">
+            Repo URL:
+            <a href="https://github.com/vemines/flutter_starter_clean_bloc" target="_blank"
+              >https://github.com/vemines/flutter_starter_clean_bloc</a
+            >
+          </div>
+        </div>
+
+        <div class="project">
           <h4 class="project-title">Quản Lý Bồi thường</h4>
           <p class="project-desc">
             Phát triển một ứng dụng web Flutter từ đầu theo thiết kế Figma. Hợp tác với nhóm backend
             để triển khai các API. Làm việc với tester để xác định và giải quyết các vấn đề.
           </p>
           <div class="project-techs">
-            <p>Ngôn ngữ: Flutter</p>
-            <p>State manager: GetX</p>
-            <p>Vai trò: Frontend</p>
+            <p>Ngôn ngữ: <b>Flutter</b></p>
+            <p>State manager: <b>GetX</b></p>
+            <p>Vai trò: <b>Frontend</b></p>
           </div>
         </div>
 
@@ -113,15 +142,16 @@
             generate code.
           </p>
           <div class="project-techs">
-            <p>Ngôn ngữ: Flutter</p>
-            <p>Tính năng: Auth, CRUD Note (với Camera, Tải ảnh lên, Bảng vẽ tay, Ghi âm)</p>
+            <p>Ngôn ngữ: <b>Flutter</b></p>
+            <p>Tính năng: <b>Auth, CRUD Note</b> (với Camera, Tải ảnh lên, Bảng vẽ tay, Ghi âm)</p>
             <p>
-              Generator: intl_utils (ứng dụng đa ngôn ngữ), hive_generator (hỗ trợ lưu đối tượng cho
-              bộ nhớ đệm), flutter_intl (quản lý assets), flutter_gen (tạo màu từ xml)
+              Generator: <b>intl_utils</b>, <b>hive_generator</b>, <b>flutter_intl</b>,
+              <b>flutter_gen</b>
             </p>
-            <p>State manager: Bloc, Provider</p>
-            <p>Backend: Firebase, Hive</p>
-            <p>Vai trò: FullStack</p>
+            <p>State manager: <b>Bloc, Provider</b></p>
+            <p>Backend: <b>Firebase</b></p>
+            <p>Local Storage: <b>Hive</b></p>
+            <p>Vai trò: <b>FullStack</b></p>
           </div>
           <div class="project-url">
             Repo URL:
@@ -139,9 +169,9 @@
             xử lý các kịch bản và tình huống thực tế.
           </p>
           <div class="project-techs">
-            <p>Ngôn ngữ: JavaScript</p>
-            <p>Database: MongoDB</p>
-            <p>Vai trò: Backend</p>
+            <p>Ngôn ngữ: <b>JavaScript</b></p>
+            <p>Database: <b>MongoDB</b></p>
+            <p>Vai trò: <b>Backend</b></p>
           </div>
           <div class="project-url">
             Repo URL:
@@ -158,7 +188,8 @@
             viết bằng JavaScript.
           </p>
           <div class="project-techs">
-            <p>Ngôn ngữ: JavaScript</p>
+            <p>Ngôn ngữ: <b>HTML, CSS, JavaScript</b></p>
+            <p>Tính Năng: <b>Học từ vựng, Trắc nghiệm, Lưu từ, Tạo từ mới với AI</b></p>
           </div>
           <div class="project-url">
             Repo URL:
