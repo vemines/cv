@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV Fullstack Developer</title>
+    <title>CV Flutter Developer</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -14,7 +14,7 @@
 
       <div class="center">
         <h1 onclick="copyToClipboard('Huỳnh Hưng Phát')">HUỲNH HƯNG PHÁT</h1>
-        <h2>FullStack Developer</h2>
+        <h2>Flutter Developer</h2>
       </div>
 
       <div class="right">
@@ -52,51 +52,111 @@
       <h3 class="title">Overview</h3>
       <div id="overview">
         <p>
-          A full-stack developer passionate about building cross-platform applications. Experienced
-          in using Flutter to build responsive and clean architecture mobile interfaces with a
-          Firebase backend, developing RESTful APIs with Node.js, working with popular databases,
-          and creating websites using ReactJS.
+          Highly motivated Flutter Developer with a proven track record of building high-quality,
+          cross-platform mobile applications. Proficient in developing responsive UIs, implementing
+          Clean Architecture, and integrating with RESTful APIs and Firebase backends. Experienced
+          in building RESTful APIs using Node.js, MongoDB, and MySQL. Seeking a challenging role to
+          contribute to the development of cutting-edge mobile solutions.
         </p>
       </div>
 
       <h3 class="title">Skills</h3>
       <div id="skills">
         <p>
-          <strong>Flutter:</strong> Experience building mobile apps with Firebase backend. Familiar
-          with state management (Bloc, GetX, Provider), responsive design (mobile, tablet), and
-          Material Design. Able to use and customize third-party packages.
+          <strong>Flutter:</strong> Hands-on experience building mobile applications, including
+          Firebase backend integration. Proficient in state management solutions (Bloc, GetX,
+          Provider) and designing responsive UIs (mobile, tablet) following Material Design
+          guidelines. Experienced with popular libraries such as `dio`, `dartz`, and `get_it`.
         </p>
 
         <p>
           <strong>Node.js:</strong> Experience building RESTful APIs with Express.js, including
-          routing, middleware, and HTTP methods. Familiar with MongoDB, MySQL, Redis caching, AWS
-          services (EC2, S3, CloudFront), and Cloudinary. Basic knowledge of microservices.
+          routing, middleware, authentication, and HTTP methods. Proficient with MongoDB, MySQL,
+          Redis (for caching), and integration with AWS services (EC2, S3, CloudFront) and
+          Cloudinary.
         </p>
 
         <p>
-          <strong>HTML, CSS, JS:</strong> Experience Developer Website, Ready to learn other web
-          framework.
+          <strong>Golang:</strong> Completed the Go Tour and have experience building basic RESTful
+          APIs using Gin and Gorm. (Actively learning and expanding Golang skills).
         </p>
 
-        <p><strong>Git, Python:</strong> Basic knowledge</p>
+        <p>
+          <strong>Other Skills:</strong> Git (version control), Python, Docker (basic), English
+          (Intermediate reading/writing, basic conversational).
+        </p>
       </div>
 
       <h3 class="title">Projects</h3>
       <div id="projects">
         <div class="project">
-          <h4 class="project-title">Flutter Clean Architecture Starter</h4>
+          <h4 class="project-title">Num2Text</h4>
           <p class="project-desc">
-            This project is a Starter Flutter Project, implementing Clean Architecture along with
-            BLoC, Provider for state management. It provides a scalable structure for building large
-            applications in Flutter. It uses the latest third-party libraries and integrates with an
-            API backed by a mock server running on json_server and firebase.
+            A Dart library simplifying the conversion of various number formats (num, Decimal,
+            BigInt, String) to words across nearly 70 languages. Offers extensive support for
+            currency, years, and language-specific requirements. Developed leveraging AI tools.
+          </p>
+          <div class="project-techs">
+            <p>Language: <b>Dart</b></p>
+          </div>
+          <div class="project-url">
+            Repo URL:
+            <a href="https://github.com/vemines/num2text" target="_blank">
+              https://github.com/vemines/num2text
+            </a>
+            <br />
+            Pub.dev URL:
+            <a href="https://pub.dev/packages/num2text" target="_blank">
+              https://pub.dev/packages/num2text
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h4 class="project-title">Cafe Staff App</h4>
+          <p class="project-desc">
+            The Cafe Staff App is a powerful solution, built on the Flutter platform, designed to
+            enhance operational efficiency and improve the customer experience at your cafe. It
+            provides staff with the necessary tools to manage everything from orders and menus to
+            customer feedback. The app offers intuitive data visualization, detailed statistics, and
+            comprehensive reports on sales, revenue, and feedback to support informed business
+            decisions.
           </p>
           <div class="project-techs">
             <p>Language: <b>Flutter</b></p>
-            <p>State manager: <b>Bloc, Provider</b></p>
+            <p>Architecture: <b>Clean Architecture</b></p>
+            <p>State management: <b>Bloc</b></p>
+            <p>Backend: <b>json-server, socket</b></p>
+            <p>
+              Other:
+              <b> Socketio, Themes, I18n, Error Handle (dartz), Injection container (get_it). </b>
+            </p>
+          </div>
+          <div class="project-url">
+            Repo URL:
+            <a href="https://github.com/vemines/cafe-staff-app" target="_blank">
+              https://github.com/vemines/cafe-staff-app
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h4 class="project-title">Flutter Clean Architecture Starter</h4>
+          <p class="project-desc">
+            Flutter project demonstrating Clean Architecture principles with Bloc and Provider for
+            state management. This starter project provides a scalable structure for large Flutter
+            applications, utilizing the latest third-party libraries. It integrates with APIs using
+            both json-server and Firebase backends. The project includes features such as
+            authentication, post management, user management, and comment management, and is
+            supported by 200 test cases using mocktail, flutter_test, and bloc_test. It supports
+            three flavors developing, stagging, production.
+          </p>
+          <div class="project-techs">
+            <p>Language: <b>Flutter</b></p>
+            <p>State management: <b>Bloc, Provider</b></p>
             <p>Backend: <b>json-server, Firebase</b></p>
             <p>Features: <b>Auth, Post, User, Comments</b></p>
-            <p>Test (200 testcases): <b>mocktail, flutter_test, bloc_test</b></p>
+            <p>Test: <b>mocktail, flutter_test, bloc_test</b></p>
             <p>
               Other: 3 Flavors, 8 Variants
               <b>
@@ -116,13 +176,16 @@
         <div class="project">
           <h4 class="project-title">Compensation Management</h4>
           <p class="project-desc">
-            Developed a Flutter web application from scratch based on a Figma design. Worked with
-            the backend team to implement APIs and collaborated with testers to identify and resolve
-            issues.
+            I developed the user interface for a Flutter web application based on Figma designs.
+            This involved creating components such as input forms and data display tables. I
+            collaborated closely with the backend team to integrate RESTful APIs, ensuring efficient
+            data transfer, and worked with the testing team to identify and resolve bugs,
+            guaranteeing application quality.
           </p>
           <div class="project-techs">
             <p>Language: <b>Flutter</b></p>
-            <p>State manager: <b>GetX</b></p>
+            <p>Architecture: <b>MVC</b></p>
+            <p>State management: <b>GetX</b></p>
             <p>Role: <b>Frontend</b></p>
           </div>
         </div>
@@ -130,12 +193,14 @@
         <div class="project">
           <h4 class="project-title">Clone Google Keep</h4>
           <p class="project-desc">
-            Cloned the UI and features of Google Keep using Flutter. Used Bloc and Provider for
-            state management. Integrated the backend with Firebase. Experimented with code
-            generation packages.
+            This project involved implementing authentication, CRUD operations for notes (including
+            camera integration, photo uploads, a drawing pad, and a recorder), and utilizing Bloc
+            and Provider for state management. I integrated the application with a Firebase backend
+            and used Hive for local storage.
           </p>
           <div class="project-techs">
             <p>Language: <b>Flutter</b></p>
+            <p>Architecture: <b>MVC</b></p>
             <p>
               Feature: <b>Auth, CRUD Note (with Camera, Upload photo, Drawing pad, Recorder)</b>
             </p>
@@ -143,7 +208,7 @@
               Generator:
               <b> intl_utils, hive_generator , flutter_intl, flutter_gen </b>
             </p>
-            <p>State manager: <b>Bloc, Provider</b></p>
+            <p>State management: <b>Bloc, Provider</b></p>
             <p>Backend: <b>Firebase</b></p>
             <p>Local Storage: <b>Hive</b></p>
             <p>Role: <b>FullStack</b></p>
@@ -159,9 +224,9 @@
         <div class="project">
           <h4 class="project-title">NodeJS Backend</h4>
           <p class="project-desc">
-            A compilation of Node.js knowledge, focused on building REST APIs for e-commerce
-            applications. Includes practical examples using AWS services like S3 and CloudFront,
-            along with Cloudinary for media handling, applied to real-world scenarios.
+            My backend experience includes the Node.js Backend Project, where I developed REST APIs
+            for e-commerce applications, solidifying my Node.js skills. This involved applying AWS
+            services (S3, CloudFront) and Cloudinary for media handling in practical scenarios.
           </p>
           <div class="project-techs">
             <p>Language: <b>JavaScript</b></p>
@@ -179,8 +244,8 @@
         <div class="project">
           <h4 class="project-title">Vocabulary App</h4>
           <p class="project-desc">
-            A simple application learning that help to learn new words, take quizzes. Pure
-            JavaScript.
+            A simple application helps users learn new words, take quizzes. bookmark words, and even
+            create new words using AI-assisted filling.
           </p>
           <div class="project-techs">
             <p>Language: <b>HTML, CSS, JavaScript</b></p>
@@ -204,26 +269,19 @@
       <div id="work-exp">
         <div class="job-title">
           <p>REMOTE FLUTTER INTERN</p>
-          <p>07/2023 → 04/2024</p>
+          <p>10/2023 → 08/2024</p>
         </div>
         <div class="job-desc">
           <p>
-            Learned Dart and Flutter for app development, focusing on Material Design principles.
-            Implemented state management using GetX, BLoC, and Provider for efficient app
-            architecture.
-          </p>
-          <p>Wrote clean, maintainable code to ensure better scalability and performance.</p>
-          <p>
-            Enhanced UI/UX skills by building responsive apps with integrated themes, multi-language
-            support, animations, media handling, and caching.
-          </p>
-          <p>
-            Explored Firebase services like Authentication, Firestore, Database, CAPTCHA, and Maps
-            for app features.
-          </p>
-          <p>
-            Collaborated with backend teams to integrate REST APIs and customized third-party
-            packages according to project needs.
+            I worked as a Remote Flutter Intern. During this time, I developed proficiency in Dart
+            and Flutter, focusing on building applications that adhered to Material Design
+            principles. I implemented state management solutions, including GetX, Bloc, and
+            Provider, to optimize application performance. I also focused on writing high-quality,
+            maintainable code to ensure the scalability and long-term maintainability of the
+            applications. I gained significant experience in integrating Firebase services,
+            including Authentication, Firestore, Realtime Database, CAPTCHA, and Maps, into Flutter
+            applications. Finally, I collaborated closely with backend teams to integrate RESTful
+            APIs and to customize third-party packages to meet specific project requirements.
           </p>
         </div>
       </div>
