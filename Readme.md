@@ -6,7 +6,8 @@ This project is a personal CV page created using HTML and CSS. It is designed to
 
 You can view the live project here:
 
-[**Live CV Page**](https://vemines.github.io/cv)
+[**English CV**](https://vemines.github.io/cv/index.html)
+[**Vietnamese CV**](https://vemines.github.io/cv/index-vi.html)
 
 ## Features
 

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Lập trình viên Flutter</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <section id="info">
+      <div class="left">
+        <img src="avatar.jpg" alt="avatar" />
+      </div>
+
+      <div class="center">
+        <h2 onclick="copyToClipboard('Huỳnh Hưng Phát')">HUỲNH HƯNG PHÁT</h2>
+        <h3>Lập trình viên Flutter</h3>
+      </div>
+
+      <div class="right">
+        <ul>
+          <li class="contact-info" onclick="copyToClipboard('hphat99.dev@gmail.com')">
+            <svg><use href="./sprite.svg#envelope" /></svg>
+            <p class="contact-text">hphat99.dev@gmail.com</p>
+          </li>
+          <li class="contact-info" onclick="copyToClipboard('0946360458')">
+            <svg><use href="./sprite.svg#phone" /></svg>
+            <p class="contact-text">0946360458</p>
+          </li>
+          <li class="contact-info" onclick="copyToClipboard('Thủ Đức, TP.HCM')">
+            <svg><use href="./sprite.svg#location-dot" /></svg>
+            <p class="contact-text">Thủ Đức, TP.HCM</p>
+          </li>
+          <li
+            class="contact-info"
+            onclick="copyToClipboard('https:\/\/github.com\/vemines?tab=repositories')"
+          >
+            <svg><use href="./sprite.svg#github" /></svg>
+            <a href="https://github.com/vemines?tab=repositories" target="_blank">
+              <p class="contact-text">https://github.com/vemines</p>
+            </a>
+          </li>
+          <li class="contact-info" onclick="copyToClipboard('20\/05\/1999')">
+            <svg><use href="./sprite.svg#calendar" /></svg>
+            <p class="contact-text">20/05/1999</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="content">
+      <h3 class="title">Giới thiệu</h3>
+      <div id="overview">
+        <p>
+          Tôi là một lập trình viên Flutter với niềm đam mê trong việc tạo ra những ứng dụng di động
+          không chỉ đẹp mắt mà còn thực sự hữu ích cho người dùng. Qua hành trình phát triển các ứng
+          dụng từ ý tưởng đến sản phẩm hoàn chỉnh, tôi đã tích lũy được kinh nghiệm quý báu trong
+          việc thiết kế giao diện trực quan, áp dụng Clean Architecture, và tạo ra những trải nghiệm
+          người dùng mượt mà thông qua việc tích hợp khéo léo với RESTful API và Firebase. Không
+          dừng lại ở frontend, tôi cũng có nền tảng về backend với Node.js, MongoDB và MySQL. Hiện
+          tại, tôi đang mong muốn tìm kiếm những cơ hội thú vị để được đóng góp vào các dự án đầy
+          thách thức và tiếp tục học hỏi, phát triển bản thân.
+        </p>
+      </div>
+
+      <h3 class="title">Kỹ năng chuyên môn</h3>
+      <div id="skills">
+        <p>
+          <strong>Flutter & Dart:</strong> Đây chính là "thế mạnh" chính của tôi! Tôi có niềm đam mê
+          thực sự với Flutter và đã trải qua cả hành trình từ việc học những concept cơ bản cho đến
+          xây dựng những ứng dụng production-ready hoàn chỉnh. Tôi đặc biệt thành thạo trong việc
+          tích hợp các dịch vụ Firebase và có thể tạo ra những giao diện người dùng responsive tuyệt
+          đẹp theo Material Design cho mọi kích thước màn hình. Các pattern quản lý trạng thái như
+          Bloc, GetX, và Provider đều là những công cụ tôi sử dụng thành thạo, tùy thuộc vào đặc thù
+          của từng dự án.
+        </p>
+
+        <p>
+          <strong>Backend với Node.js:</strong> Với tôi, Node.js không chỉ là một công nghệ mà còn
+          là cầu nối giúp tôi hiểu rõ hơn về toàn bộ vòng đời của một ứng dụng. Từ việc xây dựng
+          RESTful API với Express.js, thiết kế routing logic, xử lý middleware phức tạp đến việc
+          implement các hệ thống authentication bảo mật - tôi đều đã trải qua và rút ra được những
+          bài học quý giá. Kinh nghiệm làm việc với MongoDB, MySQL, và Redis cho caching đã giúp tôi
+          hiểu sâu hơn về data modeling và performance optimization.
+        </p>
+
+        <p>
+          <strong>Kỹ năng hỗ trợ:</strong> Git công cụ quản lý version control. Với Python, tôi
+          thường sử dụng để viết các script và data processing nhỏ. Docker tuy mới chỉ ở mức cơ bản
+          nhưng đã giúp tôi hiểu rõ hơn về containerization và deployment workflow. Về tiếng Anh,
+          tôi tự tin đọc hiểu tài liệu kỹ thuật, viết documentation rõ ràng, và giao tiếp cơ bản
+          trong môi trường làm việc quốc tế.
+        </p>
+      </div>
+
+      <h3 class="title">Dự án đáng tự hào</h3>
+
+      <div id="projects">
+        <div class="project">
+          <h4 class="project-title">VMoney - Ứng dụng quản lý tài chính thông minh</h4>
+          <p class="project-desc">
+            Đây là dự án tôi tâm huyết nhất! VMoney là một ứng dụng quản lý tài chính cá nhân toàn
+            diện được xây dựng bằng Flutter. Ý tưởng xuất phát từ việc tôi muốn có một công cụ giúp
+            theo dõi chi tiêu một cách thông minh, với khả năng chuyển đổi tiền tệ realtime và hoạt
+            động mượt mà ngay cả khi offline. Tôi đã dành rất nhiều thời gian để tối ưu trải nghiệm
+            người dùng trên mọi nền tảng - từ mobile đến web và desktop.
+          </p>
+
+          <div class="features-grid">
+            <div class="feature-group">
+              <h6>Tính năng tài chính cốt lõi</h6>
+              <ul>
+                <li>Theo dõi thu chi với các danh mục có thể tùy chỉnh linh hoạt</li>
+                <li>Tính toán siêu chính xác với package `Decimal` (quan trọng với tiền bạc!)</li>
+                <li>Tự động hóa các giao dịch định kỳ thông qua hệ thống lịch trình</li>
+                <li>Báo cáo trực quan với biểu đồ với `fl_chart`</li>
+              </ul>
+            </div>
+            <div class="feature-group">
+              <h6>Bảo mật & đồng bộ dữ liệu</h6>
+              <ul>
+                <li>Đăng nhập an toàn (Email, Google, hoặc dùng thử không cần tài khoản)</li>
+                <li>Offline-first: hoạt động mượt mà ngay cả khi mất mạng</li>
+                <li>Hệ thống đồng bộ giải quyết xung đột khi chỉnh sửa offline</li>
+                <li>Bảo vệ ứng dụng bằng mã pin</li>
+              </ul>
+            </div>
+            <div class="feature-group">
+              <h6>Trải nghiệm người dùng</h6>
+              <ul>
+                <li>Chuyển đổi tiền tệ realtime và xem biểu đồ tỷ giá</li>
+                <li>Giao diện responsive hoàn hảo trên mọi thiết bị</li>
+                <li>Hỗ trợ đa ngôn ngữ</li>
+                <li>Theme sáng/tối thay đổi theo sở thích</li>
+              </ul>
+            </div>
+            <div class="feature-group">
+              <h6>Thu nhập</h6>
+              <ul>
+                <li>Triển khai In-App Purchases và Subscriptions</li>
+                <li>Tích hợp AdMob chạy quảng cáo</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project-techs">
+            <p><b>Công nghệ:</b> Flutter & Dart</p>
+            <p><b>Kiến trúc:</b> Clean Architecture với cấu trúc Layer-first</p>
+            <p><b>State Management:</b> Bloc và Cubit</p>
+            <p><b>Backend:</b> Supabase (Auth, Postgres, Storage, RPC) + Node.js cho CI/CD</p>
+            <p><b>CI/CD:</b> GitHub Actions tự động cập nhật dữ liệu tiền tệ</p>
+            <p><b>Lưu trữ:</b> SQLite (`sqflite`), Shared Preferences, Secure Storage</p>
+            <p><b>Thư viện chính:</b> GoRouter, Dio, GetIt, Dartz, fl_chart, Intl, Decimal</p>
+          </div>
+          <div class="project-url">
+            Github:
+            <a href="https://github.com/vemines/vmoney" target="_blank">
+              https://github.com/vemines/vmoney
+            </a>
+            <br />
+            Live Demo:
+            <a href="https://vemines.github.io/vmoney" target="_blank">
+              https://vemines.github.io/vmoney
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h4 class="project-title">Num2Text</h4>
+          <p class="project-desc">
+            Tôi nhận ra có rất nhiều developer cần chuyển đổi số thành chữ, nhưng các package hiện
+            tại chưa hỗ trợ đủ ngôn ngữ. Vì vậy tôi đã tạo ra Num2Text - một package Dart hỗ trợ gần
+            70 ngôn ngữ! Package này có thể xử lý mọi loại số (từ `int` đến `Decimal` và `BigInt`)
+            và có định dạng đặc biệt cho tiền tệ và năm.
+          </p>
+          <div class="project-techs">
+            <p><b>Ngôn ngữ:</b> Dart</p>
+          </div>
+          <div class="project-url">
+            Github:
+            <a href="https://github.com/vemines/num2text" target="_blank">
+              https://github.com/vemines/num2text
+            </a>
+            <br />
+            Pub dev:
+            <a href="https://pub.dev/packages/num2text" target="_blank">
+              https://pub.dev/packages/num2text
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h4 class="project-title">Hệ thống POS cho quán Cafe</h4>
+          <p class="project-desc">
+            Một dự án thực tế tôi đã làm để giúp các quán cà phê nhỏ quản lý công việc hiệu quả hơn.
+            Ứng dụng này cho phép nhân viên dễ dàng đặt đơn hàng, quản lý thực đơn, và xem phản hồi
+            khách hàng. Và tính năng báo cáo trực quan giúp chủ quán theo dõi doanh thu và đưa ra
+            quyết định kinh doanh.
+          </p>
+          <div class="project-techs">
+            <p><b>Frontend:</b> Flutter với Clean Architecture</p>
+            <p><b>State Management:</b> Bloc</p>
+            <p><b>Backend:</b> json-server kết hợp Socket.io cho realtime</p>
+            <p><b>Tính năng đặc biệt:</b> Đa ngôn ngữ, themes, và realtime updates</p>
+          </div>
+          <div class="project-url">
+            Github:
+            <a href="https://github.com/vemines/cafe-staff-app" target="_blank">
+              https://github.com/vemines/cafe-staff-app
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h4 class="project-title">Hệ thống Quản lý Lương thưởng</h4>
+          <p class="project-desc">
+            Trong dự án này, tôi đã có cơ hội chuyển đổi những thiết kế Figma phức tạp thành một ứng
+            dụng web Flutter hoạt động thực tế. Thách thức lớn nhất là xây dựng các component xử lý
+            nhiều dữ liệu như biểu mẫu động và bảng dữ liệu có thể sắp xếp. Tôi đã học được rất
+            nhiều về việc làm việc nhóm khi phối hợp với team backend và QA để tạo ra sản phẩm không
+            có lỗi.
+          </p>
+          <div class="project-techs">
+            <p><b>Công nghệ:</b> Flutter Web</p>
+            <p><b>Kiến trúc:</b> MVC pattern</p>
+            <p><b>State Management:</b> GetX</p>
+            <p><b>Vai trò:</b> Frontend Developer</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <h4 class="project-title">E-commerce Backend với Node.js</h4>
+          <p class="project-desc">
+            Đây là dự án giúp tôi hiểu rõ hơn về backend development. Tôi đã xây dựng một RESTful
+            API hoàn chỉnh cho một nền tảng thương mại điện tử, bao gồm thiết kế database MongoDB,
+            hệ thống JWT authentication, và xử lý upload files. Phần thú vị nhất là tích hợp với AWS
+            (S3, CloudFront) để tối ưu việc lưu trữ và phân phối nội dung.
+          </p>
+          <div class="project-techs">
+            <p><b>Backend:</b> Node.js + Express.js</p>
+            <p><b>Database:</b> MongoDB</p>
+            <p><b>Cloud Services:</b> AWS S3, CloudFront</p>
+            <p><b>Bảo mật:</b> JWT Authentication</p>
+          </div>
+          <div class="project-url">
+            Github:
+            <a href="https://github.com/vemines/NodeJs/tree/main/RestApi" target="_blank">
+              https://github.com/vemines/NodeJs/tree/main/RestApi
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h4 class="project-title">Ứng dụng Học từ vựng thông minh</h4>
+          <p class="project-desc">
+            Một dự án web thuần túy tôi làm để thử thách bản thân với HTML, CSS, JavaScript thuần.
+            Ứng dụng có các tính năng thú vị như quiz tương tác, bookmark từ vựng, và đặc biệt là
+            tính năng "AI Fill" giúp người dùng tạo từ mới một cách thông minh. Tôi học được rất
+            nhiều về web fundamentals qua dự án này.
+          </p>
+          <div class="project-techs">
+            <p><b>Công nghệ:</b> HTML, CSS, JavaScript thuần</p>
+            <p><b>Tính năng:</b> Quiz, bookmark, tạo từ với AI</p>
+          </div>
+          <div class="project-url">
+            Github:
+            <a href="https://github.com/vemines/vocabulary" target="_blank">
+              https://github.com/vemines/vocabulary
+            </a>
+            <br />
+            Dùng thử:
+            <a href="https://vemines.github.io/vocabulary" target="_blank">
+              https://vemines.github.io/vocabulary
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="title">Kinh nghiệm làm việc</h3>
+      <div id="work-exp">
+        <div class="job-title">
+          <p>THỰC TẬP SINH FLUTTER (REMOTE)</p>
+          <p>10/2023 → 08/2024</p>
+        </div>
+        <div class="job-desc">
+          <p>
+            Đây là khoảng thời gian tôi học hỏi và phát triển nhiều nhất! Làm việc remote đã dạy tôi
+            cách tự quản lý thời gian và giao tiếp hiệu quả. Tôi đã thành thạo Dart và Flutter từ cơ
+            bản đến nâng cao, đặc biệt chú trọng việc áp dụng Material Design principles một cách
+            sáng tạo. Qua việc thử nghiệm với GetX, Bloc, và Provider, tôi đã hiểu rõ ưu nhược điểm
+            của từng pattern và biết khi nào nên sử dụng cái nào. Firebase trở thành "người bạn
+            thân" của tôi - từ Authentication đến Firestore, Realtime Database, và các dịch vụ khác.
+            Điều tôi trân trọng nhất là cơ hội được làm việc với team backend, học cách tích hợp API
+            và customize các package để phù hợp với nhu cầu thực tế của dự án.
+          </p>
+        </div>
+      </div>
+
+      <h3 class="title">Học vấn</h3>
+      <div id="educations">
+        <h4 class="education-title">Cử nhân Công nghệ thông tin - Đại học Nông Lâm TP.HCM</h4>
+        <p class="education-desc">Tốt nghiệp: Tháng 6/2023</p>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
