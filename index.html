@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flutter Developer</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <section id="info">
+      <div class="center">
+        <h2 onclick="copyToClipboard('HUYNH HUNG PHAT')">HUYNH HUNG PHAT</h2>
+        <h3>Flutter Developer</h3>
+      </div>
+
+      <div class="right">
+        <ul>
+          <li class="contact-info" onclick="copyToClipboard('hphat99.dev@gmail.com')">
+            <svg><use href="./sprite.svg#envelope" /></svg>
+            <p class="contact-text">hphat99.dev@gmail.com</p>
+          </li>
+          <li class="contact-info" onclick="copyToClipboard('0946360458')">
+            <svg><use href="./sprite.svg#phone" /></svg>
+            <p class="contact-text">0946360458</p>
+          </li>
+          <li class="contact-info" onclick="copyToClipboard('Thu Duc, Ho Chi Minh City')">
+            <svg><use href="./sprite.svg#location-dot" /></svg>
+            <p class="contact-text">Thu Duc, Ho Chi Minh City</p>
+          </li>
+          <li class="contact-info" onclick="copyToClipboard('https://github.com/vemines')">
+            <svg><use href="./sprite.svg#github" /></svg>
+            <a href="https://github.com/vemines" target="_blank">
+              <p class="contact-text">github.com/vemines</p>
+            </a>
+          </li>
+          <li class="contact-info" onclick="copyToClipboard('20/05/1999')">
+            <svg><use href="./sprite.svg#calendar" /></svg>
+            <p class="contact-text">May 20, 1999</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="content">
+      <h3 class="title">Summary</h3>
+      <div id="overview">
+        <p>
+          I am Flutter Developer focused on creating mobile apps that are both visually and highly
+          functional. I have the ability to manage the full application lifecycle, designing user
+          interfaces with Material Design, implementing Clean Architecture, integrating with RESTful
+          APIs and 3rd Backend service like Firebase or Supabase. I have knowlegde backend
+          experience in Node.js. I am seeking an opportunity to contribute to meaningful projects
+          and continue to grow as a developer.
+        </p>
+      </div>
+
+      <h3 class="title">Technical Skills</h3>
+      <div id="skills">
+        <p>
+          <strong>Flutter & Dart:</strong>
+          I have been working with Flutter to build real-world, scalable apps across platforms.
+          Proficient in implementing Clean Architecture and various state management solutions
+          (Bloc/Cubit, GetX) to build testable codebases with type safety and robust error handling.
+          Skilled in integrating modern backends like Supabase/Firebase and building robust
+          offline-first applications. Creating responsive UIs that adapt beautifully to different
+          screen sizes, with proper theming and localization support.
+        </p>
+
+        <p>
+          <strong>Backend:</strong>
+          I have built RESTful APIs with Node.js using Express.js. I work with lightweight backends
+          like json-server when building MVPs. I can integrate modern backend services like
+          Supabase/Firebase, including Authentication, Database, File Storage, and Edge Functions.
+        </p>
+
+        <p>
+          <strong>Other Skills:</strong> I'm experienced working with Git for version control. I can
+          use GitHub Actions for CI/CD tasks. I use Python for scripting and processing data/files.
+          I have experience with Cloudflare Workers and R2 for edge computing and storage – great
+          for optimizing performance across different regions. I am good at reading and writing
+          technical documentation in English, and I'm continually working on my spoken fluency.
+        </p>
+      </div>
+
+      <h3 class="title">Projects</h3>
+
+      <div id="projects">
+        <div class="project">
+          <h4 class="project-title">VMoney - Smart Finance Manager</h4>
+          <p class="project-desc">
+            I built a cross-platform personal finance application that enables users to track
+            expenses and convert currencies with up-to-date rates. The app is designed for a
+            complete offline-first experience, using a local SQLite database. It synchronizes data
+            with Supabase when users are authenticated and connected. The application follows Clean
+            Architecture principles with Bloc handling state management for better code
+            organization. I built a responsive UI that adapts to mobile, tablet including dark/light
+            themes and multiple languages.
+          </p>
+
+          <div class="features-grid">
+            <div class="feature-group">
+              <h6>Core Financial Features</h6>
+              <ul>
+                <li>Track income and expenses with personalized categories.</li>
+                <li>Accurate financial calculations with <i>Decimal</i> precision.</li>
+                <li>Smart scheduling that automatically adds recurring transactions.</li>
+                <li>Visual spending insights with interactive charts.</li>
+              </ul>
+            </div>
+            <div class="feature-group">
+              <h6>Security & Data Sync</h6>
+              <ul>
+                <li>Flexible authentication: email, Google, or guest access.</li>
+                <li>Complete offline functionality, works without internet connection.</li>
+                <li>Smart sync with conflict resolution for offline changes.</li>
+                <li>Secure user data with encrypted PIN protection.</li>
+              </ul>
+            </div>
+            <div class="feature-group">
+              <h6>User Experience</h6>
+              <ul>
+                <li>Real-time currency conversion with historical exchange rates.</li>
+                <li>Responsive design across mobile, tablet, and web.</li>
+                <li>Multi-language support for global users.</li>
+                <li>Light and dark themes for personalized visual comfort.</li>
+              </ul>
+            </div>
+            <div class="feature-group">
+              <h6>Monetization</h6>
+              <ul>
+                <li>Payment integration (Google Pay / Apple Pay) for user donations.</li>
+                <li>Google AdMob with banner and rewarded video advertising.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project-techs">
+            <p><b>Framework & Kiến trúc:</b> Flutter · Clean Architecture</p>
+            <p><b>Quản lý trạng thái:</b> Bloc</p>
+            <p>
+              <b>Backend:</b> Supabase (Auth, Database, Storage, RPC) · Node.js + GitHub Actions (tự
+              động cập nhập dữ liệu) · Cloudflare R2 + Workers (lưu trữ & cache)
+            </p>
+            <p><b>Lưu trữ cục bộ:</b> SQLite · Shared Preferences · Secure Storage</p>
+          </div>
+          <div class="project-url">
+            Github:
+            <a href="https://github.com/vemines/vmoney" target="_blank">
+              https://github.com/vemines/vmoney
+            </a>
+            <br />
+            Web Demo:
+            <a href="https://vemines.github.io/vmoney" target="_blank">
+              https://vemines.github.io/vmoney
+            </a>
+            <br />
+            Release Apk:
+            <a href="https://github.com/vemines/vmoney/releases" target="_blank">
+              https://github.com/vemines/vmoney/releases
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h4 class="project-title">Num2Text</h4>
+          <p class="project-desc">
+            I developed Num2Text, a Dart library that converts numbers into their written word form
+            across nearly 70 languages. It handles various number types with flexible input,
+            supporting int, double, BigInt, and Decimal values. The library can process integers up
+            to 24 digits (sextillions) and includes formatting for currencies, years, and decimal
+            numbers. Every supported language includes unit tests to guarantee consistent and
+            accurate conversions.
+          </p>
+          <div class="project-techs">
+            <p><b>Language: </b>Dart with Decimal package.</p>
+          </div>
+          <div class="project-url">
+            Github:
+            <a href="https://github.com/vemines/num2text" target="_blank">
+              https://github.com/vemines/num2text
+            </a>
+            <br />
+            Pub.dev:
+            <a href="https://pub.dev/packages/num2text" target="_blank">
+              https://pub.dev/packages/num2text
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h4 class="project-title">Cafe POS Application</h4>
+          <p class="project-desc">
+            I built an MVP point-of-sale application designed to help small coffee and food shops
+            with their daily operations. The application allows staff to handle customer orders and
+            receive customer feedback. Owners can manage staff accounts and roles, and control menu
+            items. The application includes reporting dashboards that allow owners to track revenue,
+            analyze sales data, and make business decisions.
+          </p>
+          <div class="project-techs">
+            <p><b>Framework & Architecture: </b>Flutter with Clean Architecture</p>
+            <p><b>State Management: </b>Bloc</p>
+            <p><b>Backend: </b>json-server with Socket.io</p>
+          </div>
+          <div class="project-url">
+            Github:
+            <a href="https://github.com/vemines/cafe-staff-app" target="_blank">
+              https://github.com/vemines/cafe-staff-app
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h4 class="project-title">Vocabulary Learning App</h4>
+          <p class="project-desc">
+            I developed a vocabulary learning web application that helps users learn English and
+            Vietnamese vocabulary through interactive study and quizzes. The app allows users to
+            select word collections, shuffle word lists, bookmark words for later study, and add
+            custom words with AI-generated definitions. The application supports dark mode themes
+            and multiple languages. It uses local storage for offline functionality and features
+            responsive design across all devices.
+          </p>
+          <div class="project-techs">
+            <p><b>Frontend:</b> HTML, CSS, JavaScript</p>
+            <p><b>Data Processing:</b> Python, Gemini API for data generation</p>
+          </div>
+          <div class="project-url">
+            Github:
+            <a href="https://github.com/vemines/vocabulary" target="_blank">
+              https://github.com/vemines/vocabulary
+            </a>
+            <br />
+            Web Demo:
+            <a href="https://vemines.github.io/vocabulary" target="_blank">
+              https://vemines.github.io/vocabulary
+            </a>
+            <br />
+            Data Repository:
+            <a href="https://github.com/vemines/vocabulary-en-vi" target="_blank">
+              https://github.com/vemines/vocabulary-en-vi
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="title">Work Experience</h3>
+      <div id="work-exp">
+        <div class="job-title">
+          <p>FLUTTER INTERN (REMOTE)</p>
+          <p>10/2023 – 06/2024</p>
+        </div>
+        <div class="job-desc">
+          <p>
+            This internship was a period for my Flutter development career. It guided me to a deep
+            understanding of Dart and Flutter, from basic concepts to advanced implementation with
+            Material Design principles. Through practical experience, I learned to use different
+            state management like GetX, Bloc, and Provider. I became proficient with Firebase
+            services while learning to integrate APIs and customize packages optimized for specific
+            project requirements.
+          </p>
+        </div>
+      </div>
+
+      <h3 class="title">Education</h3>
+      <div id="educations">
+        <h4 class="education-title">
+          Bachelor of Information Technology - Nong Lam University Ho Chi Minh City
+        </h4>
+        <p class="education-desc">Graduated: June 2023</p>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
